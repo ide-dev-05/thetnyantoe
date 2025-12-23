@@ -56,7 +56,6 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="antialiased">
-        {/* ThemeProvider wraps only the app content, inside <body> */}
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Nav />
           <AOSInit />

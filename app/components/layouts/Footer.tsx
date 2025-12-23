@@ -1,11 +1,9 @@
 "use client";
 import { usePathname } from "next/navigation";
-import RightArrowIcon from "@/public/icons/rightarrow";
 import FacebookIcon from "@/public/images/socials/facebook";
 import GithubIcon from "@/public/images/socials/github";
 import LinkedinIcon from "@/public/images/socials/linkedin";
 import TelegramIcon from "@/public/images/socials/telegram";
-import Image from "next/image";
 import Contactformfooter from "../shared/contactformfooter";
 import Link from "next/link";
 
