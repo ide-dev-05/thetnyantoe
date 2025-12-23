@@ -5,8 +5,6 @@ export default function Nav() {
   return (
     <div className="w-full bg-red-200 flex justify-center items-center sticky top-[5px] z-[10]">
       <PillNav
-        logo={logo}
-        logoAlt="Company Logo"
         items={[
           { label: "HOME", href: "/" },
           { label: "WORK", href: "/work" },

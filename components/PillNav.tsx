@@ -13,8 +13,6 @@ export type PillNavItem = {
 };
 
 export interface PillNavProps {
-  logo: string;
-  logoAlt?: string;
   items: PillNavItem[];
   activeHref?: string;
   className?: string;
@@ -28,8 +26,6 @@ export interface PillNavProps {
 }
 
 const PillNav: React.FC<PillNavProps> = ({
-  logo,
-  logoAlt = "Logo",
   items,
   activeHref,
   className = "",
