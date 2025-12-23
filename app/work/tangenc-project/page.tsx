@@ -18,7 +18,7 @@ export default function Tangenc() {
     { Icon: FramermotionIcon, name: "Framermotion" },
   ];
   return (
-    <div className="w-full flex justify-center items-center mt-[80px] md:mt-[150px] mb-[20px] md:mb-[1850px] lg:mb-[200px] px-[10px]">
+    <div className="w-full flex justify-center items-center pt-[80px] md:pt-[150px] pb-[20px] md:pb-[1850px] lg:pb-[200px] px-[10px] bg-[#ddddd1] dark:bg-[#000b0a]">
       <div className="w-full max-w-[1000px]">
         <Link
           href="/work"
@@ -39,7 +39,7 @@ export default function Tangenc() {
           />
         </div>
         <div className="w-full flex flex-col md:flex-row justify-between mt-[40px]">
-          <p className="text-[24px] font-medium dotoFont text-zinc-400 max-w-[300px]">
+          <p className="text-[24px] font-medium dotoFont text-zinc-900 dark:text-zinc-400 max-w-[300px]">
             Tangenc.co landing webpage
           </p>
           <div className="mt-[50px] md:mt-0 flex flex-col md:flex-row justify-end items-end md:items-start md:justify-between space-y-[15px] md:space-y-0 md:space-x-[10px] text-zinc-500">
