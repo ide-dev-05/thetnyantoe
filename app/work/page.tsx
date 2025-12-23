@@ -93,6 +93,8 @@ export default function Work() {
      before:bg-[url('https://www.ui-layouts.com/noise.gif')]"
       >
         <Image
+          rel="preload"
+          placeholder="blur"
           src={banner}
           alt="Work Banner"
           fill
@@ -132,6 +134,8 @@ export default function Work() {
       <section className="relative h-auto bg-[#0a0a0a] text-black overflow-visible flex flex-col items-center justify-center bg-[#ddddd1] dark:bg-[#000b0a]">
         <div className="absolute top-[-10px] lg:top-[-20px] right-0 w-[350px] -translate-y-full overflow-x-hidden">
           <Image
+            rel="preload"
+            placeholder="blur"
             src={angel1}
             alt="Work Banner"
             priority

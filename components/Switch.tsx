@@ -11,7 +11,7 @@ const Switch = () => {
 
   return (
     <StyledWrapper>
-      <label className="switch  w-[3.4rem] sm:w-[4rem] h-[2.2rem]">
+      <label className="switch  w-[3.4rem] sm:w-[4rem] h-[2.2rem] z-[20]">
         <input
           type="checkbox"
           checked={isDark}

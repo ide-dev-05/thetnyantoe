@@ -14,6 +14,8 @@ export default function Pokedex() {
         </Link>
         <div className="w-full p-0  md:p-[90px] bg-black border border-zinc-900 rounded-[5px] mt-[40px]">
           <Image
+            rel="preload"
+            placeholder="blur"
             src={photo}
             width={360}
             height={390}

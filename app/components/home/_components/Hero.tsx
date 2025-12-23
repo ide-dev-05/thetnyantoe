@@ -18,6 +18,8 @@ export default function Hero() {
   return (
     <motion.div style={{ opacity }} className="relative z-[1]">
       <Image
+        rel="preload"
+        placeholder="blur"
         src={me}
         width={360}
         height={390}
@@ -28,6 +30,8 @@ export default function Hero() {
       <div>
         <a href="#more">
           <Image
+            rel="preload"
+            placeholder="blur"
             src={stand}
             width={300}
             height={300}
@@ -38,6 +42,8 @@ export default function Hero() {
         </a>
         <a href="#showcase">
           <Image
+            rel="preload"
+            placeholder="blur"
             src={macbook}
             width={210}
             height={210}
@@ -48,6 +54,8 @@ export default function Hero() {
         </a>
         <a href="#tech">
           <Image
+            rel="preload"
+            placeholder="blur"
             src={pokeball}
             width={250}
             height={250}
@@ -59,6 +67,8 @@ export default function Hero() {
 
         <a href="#journey">
           <Image
+            rel="preload"
+            placeholder="blur"
             src={arrow}
             width={70}
             height={70}

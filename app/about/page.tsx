@@ -45,6 +45,8 @@ export default function About() {
      before:bg-[url('https://www.ui-layouts.com/noise.gif')]"
       >
         <Image
+          rel="preload"
+          placeholder="blur"
           src={banner}
           alt="Work Banner"
           fill
@@ -84,6 +86,8 @@ export default function About() {
       <section className="relative h-auto bg-[#0a0a0a] text-black overflow-visible flex flex-col items-center justify-center ">
         <div className="absolute top-[-10px] lg:top-[-20px] right-0 w-[350px] -translate-y-full overflow-x-hidden">
           <Image
+            rel="preload"
+            placeholder="blur"
             src={angel1}
             alt="Work Banner"
             priority
@@ -125,6 +129,7 @@ export default function About() {
               into something meaningful.
             </p>
             <Image
+              placeholder="blur"
               src={sunflower}
               alt="Work Banner"
               priority
@@ -144,6 +149,7 @@ export default function About() {
             <div className="flex flex-col text-black">
               <div className="flex justify-end">
                 <Image
+                  placeholder="blur"
                   src={angel2}
                   alt="Work Banner"
                   priority
@@ -164,6 +170,7 @@ export default function About() {
           </div>
 
           <Image
+            placeholder="blur"
             src={ladder}
             alt="Work Banner"
             priority
@@ -188,6 +195,7 @@ export default function About() {
               </div>
               <div className="">
                 <Image
+                  placeholder="blur"
                   src={yo}
                   alt="Work Banner"
                   priority
@@ -203,6 +211,7 @@ export default function About() {
             <div className="flex flex-col text-black items-end">
               <div className="flex w-full justify-start">
                 <Image
+                  placeholder="blur"
                   src={phone}
                   alt="Work Banner"
                   priority

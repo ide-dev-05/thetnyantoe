@@ -78,8 +78,8 @@ export default function Footer() {
           <hr className="w-full h-[0.5px] my-[70px] bg-white/13 border-0" />
 
           <div className="w-full h-auto flex flex-col md:flex-row justify-between px-[30px] space-y-[20px]">
-            <div className="flex flex-col items-start space-y-[15px]">
-              <p className="font-bold text-xl mb-[20px]">yaircube1@gmail.com</p>
+            <div className="flex flex-col items-start space-y-[15px] text-white">
+              <p className="font-bold text-xl mb-[20px]">yaircue1@gmail.com</p>
               <p className="max-w-[530px] md:max-w-[300px] xl:max-w-[500px] ">
                 © 2025 Thet Nyan Toe — Built with passion. All images, icons,
                 and third-party assets are credited to their respective

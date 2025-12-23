@@ -21,8 +21,8 @@ export default function Home() {
             animationSpeed={3}
           />
 
-          <div className="w-full flex justify-center md:justify-between space-x-[40px] items-center z-[1] mt-[10px] md:mt-0">
-            <div className="text-[10px] md:text-[13px] text-black dark:text-white">
+          <div className="w-full flex justify-center md:justify-between space-x-[40px] items-center z-[10] md:z-[1] mt-[10px] md:mt-0 ">
+            <div className="text-[10px] md:text-[13px] text-black dark:text-white ">
               <p>Myanmar based</p>
               <p className="text-zinc-500">Work globally</p>
             </div>
@@ -31,7 +31,7 @@ export default function Home() {
               href="/ThetNyanToe_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="cursor-pointer jojoFont md:border border-zinc-500 text-zinc-700 dark:text-zinc-400 p-2 md:p-2 rounded-bl-[20px] pl-2 md:pl-3 text-[10px] sm:text-[12px] md:text-[18px] hover:bg-yellow-200 hover:text-black"
+              className="cursor-pointer jojoFont md:border border-zinc-500 text-zinc-700 dark:text-zinc-400 p-2 md:p-2 rounded-bl-[20px] pl-2 md:pl-3 text-[10px] sm:text-[12px] md:text-[18px] hover:bg-yellow-200 hover:text-black "
             >
               Download Resume
             </Link>

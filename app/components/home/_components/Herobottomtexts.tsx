@@ -15,7 +15,7 @@ export default function Herobottomtexts() {
     window.speechSynthesis.speak(utterance);
   };
   return (
-    <div className=" w-full flex justify-between items-center">
+    <div className=" w-full flex justify-between items-center bg-[#ddddd1] dark:bg-[#000b0a]">
       <div className="text-[14px] sm:text-[22px] md:text-[32px] dotoFont font-[700] z-[1] text-black dark:text-white">
         WEBSITE <br /> <RandomizedTextEffect text="DEVELOPER" />
       </div>

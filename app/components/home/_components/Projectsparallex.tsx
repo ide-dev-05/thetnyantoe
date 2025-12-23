@@ -114,12 +114,6 @@ function Image({ section }: { section: (typeof sections)[number] }) {
           </div>
         </div>
       </Link>
-      <motion.h2
-        initial={{ visibility: "hidden" }}
-        animate={{ visibility: "visible" }}
-        style={{ y }}
-        className="text-[40px] text-shadow-sm sm:text-[46px] lg:text-[50px] font-[700] left-[calc(75%)] lg:left-[calc(70%)]"
-      >{`#00${section.id}`}</motion.h2>
     </section>
   );
 }

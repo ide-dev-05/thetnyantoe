@@ -102,6 +102,7 @@ export default function miniT() {
                     {m.role === "assistant" && (
                       <div className="flex items-center mb-[-10px]">
                         <Image
+                          rel="preload"
                           src={cato}
                           width={100}
                           height={100}
@@ -182,7 +183,7 @@ export default function miniT() {
                     setInput("Can you tell me about his experiences?");
                     textareaRef.current?.focus();
                   }}
-                  className="group cursor-pointer bg-gray-700 dark:bg-gray-400/10 relative rounded-lg p-[10px] sm:p-[20px] text-white/80 dark:text-white/70 text-[22px] dosisFont font-medium h-[140px]  w-full overflow-hidden"
+                  className="group cursor-pointer bg-gray-700 dark:bg-gray-400/10 relative rounded-lg p-[10px] sm:p-[20px] text-white/80 dark:text-white/70 text-[20px] sm:text-[22px] dosisFont font-medium h-[140px]  w-full overflow-hidden"
                 >
                   Can you tell me about his experiences?
                   <Paw className="size-[100px] absolute right-[-10px] bottom-[-10px]  rotate-[-40deg] opacity-10 group-hover:opacity-30" />
@@ -192,7 +193,7 @@ export default function miniT() {
                     setInput("Give me all of his contacts!");
                     textareaRef.current?.focus();
                   }}
-                  className="group cursor-pointer bg-blue-900/80 dark:bg-blue-400/10 relative rounded-lg p-[10px] sm:p-[20px] text-white/80 dark:text-white/70 text-[22px] dosisFont font-medium h-[140px]  w-full overflow-hidden"
+                  className="group cursor-pointer bg-blue-900/80 dark:bg-blue-400/10 relative rounded-lg p-[10px] sm:p-[20px] text-white/80 dark:text-white/70 text-[20px] sm:text-[22px] dosisFont font-medium h-[140px]  w-full overflow-hidden"
                 >
                   Give me all of his Contacts!
                   <Paw className="size-[100px] absolute right-[-10px] bottom-[-10px]  rotate-[-40deg] opacity-10 group-hover:opacity-30" />
@@ -202,7 +203,7 @@ export default function miniT() {
                     setInput("Can I hire him as a web developer?");
                     textareaRef.current?.focus();
                   }}
-                  className="group cursor-pointer bg-yellow-700/90 dark:bg-yellow-400/10 relative rounded-lg p-[10px] sm:p-[20px] text-white/80 dark:text-white/70 text-[22px] dosisFont font-medium h-[140px]  w-full overflow-hidden"
+                  className="group cursor-pointer bg-yellow-700/90 dark:bg-yellow-400/10 relative rounded-lg p-[10px] sm:p-[20px] text-white/80 dark:text-white/70 text-[20px] sm:text-[22px] dosisFont font-medium h-[140px]  w-full overflow-hidden"
                 >
                   Can I hire him as a web developer?
                   <Paw className="size-[100px] absolute right-[-10px] bottom-[-10px]  rotate-[-40deg] opacity-10 group-hover:opacity-30" />
@@ -212,7 +213,7 @@ export default function miniT() {
                     setInput("What is Thet Nyan Toe like outside of coding?");
                     textareaRef.current?.focus();
                   }}
-                  className="group cursor-pointer bg-green-800/90 dark:bg-green-400/10 relative rounded-lg p-[10px] sm:p-[20px] text-white/80 dark:text-white/70 text-[22px] dosisFont font-medium h-[140px]  w-full overflow-hidden"
+                  className="group cursor-pointer bg-green-800/90 dark:bg-green-400/10 relative rounded-lg p-[10px] sm:p-[20px] text-white/80 dark:text-white/70 text-[20px] sm:text-[22px] dosisFont font-medium h-[140px]  w-full overflow-hidden"
                 >
                   What is Thet Nyan Toe like outside of coding?
                   <Paw className="size-[100px] absolute right-[-10px] bottom-[-10px]  rotate-[-40deg] opacity-10 group-hover:opacity-30" />

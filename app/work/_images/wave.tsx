@@ -11,7 +11,7 @@ export default function Wave({ className }: React.SVGProps<SVGSVGElement>) {
     setMounted(true);
   }, []);
 
-  if (!mounted) return null; // render nothing on server
+  if (!mounted) return null;
 
   const fillColor = resolvedTheme === "dark" ? "#000b0a" : "#ddddd1";
 
