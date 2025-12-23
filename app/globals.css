@@ -1,20 +1,25 @@
 @import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000b0a;
     --foreground: #ededed;
   }
 }
@@ -23,4 +28,69 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+.dotoFont {
+  font-family: var(--font-dotoFont);
+}
+.jojoFont {
+  font-family: var(--font-myFont);
+}
+
+.satoshiFont {
+  font-family: var(--font-satoshiFont);
+}
+
+.nablaFont {
+  font-family: var(--font-nablaFont);
+}
+
+.greatvibesFont {
+  font-family: var(--font-greatvibesFont);
+}
+
+.stacksansFont {
+  font-family: var(--font-stacksansFont);
+}
+.dosisFont {
+  font-family: var(--font-dosisFont);
+}
+.playfairFont {
+  font-family: var(--font-playfairFont);
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  15% {
+    opacity: 0.2;
+    filter: blur(1px);
+  }
+  30% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  45% {
+    opacity: 0.3;
+    filter: blur(1.5px);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.flickerf {
+  animation: flicker 0.7s infinite;
+}
+.masktext {
+  background: url("/images/footerpainting.jpg") center / cover no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ccursor:hover {
+  cursor: url("./arrow-outward.png") 10 24, pointer;
 }
