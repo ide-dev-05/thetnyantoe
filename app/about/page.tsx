@@ -45,8 +45,6 @@ export default function About() {
      before:bg-[url('https://www.ui-layouts.com/noise.gif')]"
       >
         <Image
-          rel="preload"
-          placeholder="blur"
           src={banner}
           alt="Work Banner"
           fill
@@ -86,8 +84,6 @@ export default function About() {
       <section className="relative h-auto bg-[#0a0a0a] text-black overflow-visible flex flex-col items-center justify-center ">
         <div className="absolute top-[-10px] lg:top-[-20px] right-0 w-[350px] -translate-y-full overflow-x-hidden">
           <Image
-            rel="preload"
-            placeholder="blur"
             src={angel1}
             alt="Work Banner"
             priority
@@ -132,7 +128,6 @@ export default function About() {
               placeholder="blur"
               src={sunflower}
               alt="Work Banner"
-              priority
               className="w-[120px] sm:w-[140px] h-auto z-[0]"
               data-aos="fade-up"
             />
@@ -152,7 +147,6 @@ export default function About() {
                   placeholder="blur"
                   src={angel2}
                   alt="Work Banner"
-                  priority
                   className="w-[400px] h-auto mb-[-12px]"
                   data-aos="fade-up"
                 />
@@ -173,7 +167,6 @@ export default function About() {
             placeholder="blur"
             src={ladder}
             alt="Work Banner"
-            priority
             className="w-[320px] h-auto my-[-50px] z-[0]"
           />
 
@@ -198,7 +191,6 @@ export default function About() {
                   placeholder="blur"
                   src={yo}
                   alt="Work Banner"
-                  priority
                   className="w-[200px] md:w-[250px] xl:w-[280px] h-auto "
                   data-aos="fade-down"
                   data-aos-duration="500"
@@ -214,7 +206,6 @@ export default function About() {
                   placeholder="blur"
                   src={phone}
                   alt="Work Banner"
-                  priority
                   className="w-[400px] h-auto scale-x-[-1]"
                   data-aos="fade-up"
                   data-aos-duration="500"

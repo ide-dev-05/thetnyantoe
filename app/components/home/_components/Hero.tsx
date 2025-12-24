@@ -5,10 +5,8 @@ import stand from "../_images/wonderofu.png";
 import macbook from "../_images/macbook.png";
 import pokeball from "../_images/pokeball.png";
 import arrow from "../_images/arrow.png";
-import ArrowIcon from "@/public/icons/dottedarrow.svg";
-import ArrowIcon2 from "@/public/icons/dottedarrow2.svg";
+
 import { motion, useScroll, useTransform } from "framer-motion";
-import Link from "next/link";
 
 export default function Hero() {
   const { scrollY } = useScroll();
@@ -18,8 +16,7 @@ export default function Hero() {
   return (
     <motion.div style={{ opacity }} className="relative z-[1]">
       <Image
-        rel="preload"
-        placeholder="blur"
+        priority
         src={me}
         width={360}
         height={390}
@@ -30,8 +27,7 @@ export default function Hero() {
       <div>
         <a href="#more">
           <Image
-            rel="preload"
-            placeholder="blur"
+            priority
             src={stand}
             width={300}
             height={300}
@@ -42,8 +38,7 @@ export default function Hero() {
         </a>
         <a href="#showcase">
           <Image
-            rel="preload"
-            placeholder="blur"
+            priority
             src={macbook}
             width={210}
             height={210}
@@ -54,8 +49,7 @@ export default function Hero() {
         </a>
         <a href="#tech">
           <Image
-            rel="preload"
-            placeholder="blur"
+            priority
             src={pokeball}
             width={250}
             height={250}
@@ -67,8 +61,7 @@ export default function Hero() {
 
         <a href="#journey">
           <Image
-            rel="preload"
-            placeholder="blur"
+            priority
             src={arrow}
             width={70}
             height={70}

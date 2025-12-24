@@ -11,7 +11,6 @@ import hi from "@/public/images//movies/hi.png";
 import nk from "@/public/images//movies/nk.png";
 import wow from "@/public/images//movies/wow.png";
 import Marquee from "react-fast-marquee";
-import { i } from "framer-motion/client";
 import Contactform from "../../shared/contactform";
 import Link from "next/link";
 
@@ -53,6 +52,7 @@ export default function Aboutme() {
             <div className="relative w-full h-[335px] lg:h-[435px] border border-zinc-200 rounded-[35px] overflow-hidden bg-gray-800">
               {images.map((img, i) => (
                 <Image
+                  placeholder="blur"
                   key={i}
                   src={img}
                   alt="Author"

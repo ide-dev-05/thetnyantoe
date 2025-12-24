@@ -156,7 +156,7 @@ export default function miniT() {
               <div className="flex items-center">
                 <div>
                   <Image
-                    rel="preload"
+                    priority
                     src={cato}
                     width={100}
                     height={100}
