@@ -33,7 +33,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="cursor-pointer jojoFont md:border border-zinc-500 text-zinc-700 dark:text-zinc-400 p-2 md:p-2 rounded-bl-[20px] pl-2 md:pl-3 text-[10px] sm:text-[12px] md:text-[18px] hover:bg-yellow-200 hover:text-black z-[9] md:z-[1]"
             >
-              Download Resume
+              Download Resum
             </Link>
           </div>
           <Hero />
