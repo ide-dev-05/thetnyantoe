@@ -66,7 +66,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="relative h-auto flex flex-col items-start bg-gray-900 rounded-t-[10px] xl:rounded-t-[60px] z-10 -mt-20 pt-[120px] p-[15px] sm:p-[30px] md:p-[50px]">
+        <div className="relative h-auto flex flex-col items-start bg-gray-900 rounded-t-[10px] xl:rounded-t-[60px] z-8 -mt-20 pt-[120px] p-[15px] sm:p-[30px] md:p-[50px]">
           <div>
             <p className="text-zinc-400 text-[32px] font-medium ">
               Ready to build your next product — let’s build.
@@ -104,6 +104,12 @@ export default function Footer() {
                 className="cursor-pointer hover:text-white ccursor"
               >
                 About
+              </Link>
+              <Link
+                href="/minit"
+                className="cursor-pointer hover:text-white ccursor"
+              >
+                miniT
               </Link>
             </div>
 

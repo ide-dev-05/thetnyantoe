@@ -3,7 +3,7 @@ import logo from "@/public/images/1.png";
 
 export default function Nav() {
   return (
-    <div className="w-full bg-red-200 flex justify-center items-center sticky top-[5px] z-[10]">
+    <div className="w-full bg-red-200 flex justify-center items-center sticky top-[5px]  mt-[5px] z-[10]">
       <PillNav
         items={[
           { label: "HOME", href: "/" },
