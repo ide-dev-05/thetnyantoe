@@ -87,10 +87,13 @@ body {
   animation: flicker 0.7s infinite;
 }
 .masktext {
-  background: url("/images/footerpainting.jpg") center / cover no-repeat;
+  background: url("https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773708/footerpainting_porxqd.jpg")
+    center / cover no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .ccursor:hover {
-  cursor: url("./arrow-outward.png") 10 24, pointer;
+  cursor: url("https://res.cloudinary.com/dtwvkmuje/image/upload/v1766777923/arrow-outward_hmfe7i.png")
+      10 24,
+    pointer;
 }

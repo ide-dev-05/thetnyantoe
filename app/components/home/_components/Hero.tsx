@@ -1,10 +1,5 @@
 "use client";
 import Image from "next/image";
-import me from "../_images/meedit.png";
-import stand from "../_images/wonderofu.png";
-import macbook from "../_images/macbook.png";
-import pokeball from "../_images/pokeball.png";
-import arrow from "../_images/arrow.png";
 
 import { motion, useScroll, useTransform } from "framer-motion";
 
@@ -17,7 +12,7 @@ export default function Hero() {
     <motion.div style={{ opacity }} className="relative z-[1]">
       <Image
         priority
-        src={me}
+        src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773724/me_htgmwn.png"
         width={360}
         height={390}
         alt="Picture of the author"
@@ -28,7 +23,7 @@ export default function Hero() {
         <a href="#more">
           <Image
             priority
-            src={stand}
+            src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/wonderofu_chidqm.png"
             width={300}
             height={300}
             alt="Picture of the author"
@@ -39,7 +34,7 @@ export default function Hero() {
         <a href="#showcase">
           <Image
             priority
-            src={macbook}
+            src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/macbook_evk8ed.png"
             width={210}
             height={210}
             alt="Picture of the author"
@@ -50,7 +45,7 @@ export default function Hero() {
         <a href="#tech">
           <Image
             priority
-            src={pokeball}
+            src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/pokeball_mav54h.png"
             width={250}
             height={250}
             alt="Picture of the author"
@@ -62,7 +57,7 @@ export default function Hero() {
         <a href="#journey">
           <Image
             priority
-            src={arrow}
+            src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/arrow_yqhalu.png"
             width={70}
             height={70}
             alt="Picture of the author"

@@ -1,7 +1,4 @@
 import Image from "next/image";
-
-import hands from "../_images/hands.png";
-import bird from "../_images/bird.png";
 import { RandomizedTextEffect } from "@/app/components/shared/text-randomized";
 export default function Github(): React.ReactElement {
   return (
@@ -19,8 +16,10 @@ export default function Github(): React.ReactElement {
           explore projects
         </div>
         <Image
-          src={bird}
+          src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766776717/bird_eq8prp.png"
           alt="abird"
+          width={100}
+          height={100}
           priority
           className="w-[70%] h-auto "
           data-aos="fade-up"
@@ -41,9 +40,10 @@ export default function Github(): React.ReactElement {
             thub)
           </div>
           <Image
-            src={hands}
+            src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766776717/hands_xszyxt.png"
             alt="hands"
-            priority
+            width={100}
+            height={100}
             className="absolute top-0 w-auto h-auto
              opacity-20
              flickerf

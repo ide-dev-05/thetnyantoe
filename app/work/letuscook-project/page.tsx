@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import photo from "@/public/images/2.png";
 
 import TailwindIcon from "@/public/icons/techs/tailwind";
 
@@ -30,7 +29,7 @@ export default function Letuscook() {
         <div className="w-full p-0 md:p-[90px] bg-black border border-zinc-900 rounded-[5px] mt-[40px]">
           <Image
             priority
-            src={photo}
+            src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773723/2_vu5xwr.png"
             width={360}
             height={390}
             quality={100}

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import arrow from "./_images/arrow.png";
 import { RandomizedTextEffect } from "../shared/text-randomized";
 import StarIcon from "@/public/icons/star-icon";
 
@@ -82,14 +81,13 @@ export default function ExperiencesSection() {
     >
       <div className="flex items-center" data-aos="fade-right">
         <Image
-          src={arrow}
+          src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/arrow_yqhalu.png"
           width={50}
           height={40}
           alt="Pokeball"
           className="rotate-[170deg] mx-[15px]"
         />
         <p className="text-white text-[34px] md:text-[48px] xl:text-[66px] nablaFont cursor-target">
-          {" "}
           / Journey
         </p>
       </div>
@@ -144,7 +142,8 @@ export default function ExperiencesSection() {
           <div
             className="absolute inset-0 z-0 pointer-events-none rounded-[10px]"
             style={{
-              backgroundImage: "url('/images/expbg1.jpg')",
+              backgroundImage:
+                "url('https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773712/expbg1_b8jusg.jpg')",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
@@ -170,7 +169,8 @@ export default function ExperiencesSection() {
           <div
             className="absolute inset-0 z-0 pointer-events-none rounded-[10px]"
             style={{
-              backgroundImage: "url('/images/expbg2.jpg')",
+              backgroundImage:
+                "url('https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773723/expbg2_tu2q3u.jpg')",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",

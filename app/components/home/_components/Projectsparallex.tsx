@@ -29,7 +29,8 @@ const sections = [
     id: 1,
     name: "SECURUM",
     description: "AI-ChatBot",
-    image: "/images/1.png",
+    image:
+      "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773729/1_hxx1sj.png",
     techs: [
       "Nextjs",
       "Typescript",
@@ -45,7 +46,8 @@ const sections = [
     id: 2,
     name: "LetusCook",
     description: "C2C Food-focused E-commerce",
-    image: "/images/2.png",
+    image:
+      "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773723/2_vu5xwr.png",
     techs: ["Vitejs", "Reactjs", "Tailwind", "Php", "Mysql", "Framermotion"],
     link: "/work/letuscook-project",
   },
@@ -53,7 +55,8 @@ const sections = [
     id: 3,
     name: "Tangenc",
     description: "Landing webpage",
-    image: "/images/3.png",
+    image:
+      "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773724/3_yp1stt.png",
     techs: ["Reactjs", "Vitejs", "Tailwind", "Framermotion"],
     link: "/work/tangenc-project",
   },

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import stand from "./_images/wonderofu.png";
 import { RandomizedTextEffect } from "@/app/components/shared/text-randomized";
 import References from "./_components/References";
 import Aboutme from "./_components/Aboutme";
@@ -13,7 +12,7 @@ export default function MoreSection() {
       >
         <div className="absolute z-0 left-[-20px] md:left-0 bottom-0 opacity-100 flex items-center space-x-[32px]">
           <Image
-            src={stand}
+            src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/wonderofu_chidqm.png"
             width={340}
             height={340}
             alt="Picture of the author"

@@ -1,6 +1,5 @@
 import FlowingDots from "../shared/flowingdots";
 import Image from "next/image";
-import macbook from "./_images/macbook.png";
 import Projectsparallex from "./_components/Projectsparallex";
 export default function ShowcaseSection() {
   return (
@@ -12,7 +11,7 @@ export default function ShowcaseSection() {
       <div data-aos="fade-up">
         <div className="flex items-center">
           <Image
-            src={macbook}
+            src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/macbook_evk8ed.png"
             width={70}
             height={70}
             alt="Picture of the author"

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import photo from "@/public/images/3.png";
+import type { Metadata } from "next";
 
 import TailwindIcon from "@/public/icons/techs/tailwind";
 
@@ -9,7 +9,14 @@ import VitejsIcon from "@/public/icons/techs/vite";
 import ReactjsIcon from "@/public/icons/techs/reactjs";
 
 import FramermotionIcon from "@/public/icons/techs/framermotion";
-
+export const metadata: Metadata = {
+  title: "Work",
+  description:
+    "Explore projects by Thet Nyan Toe, including React, Next.js, and full-stack applications with real-world use cases.",
+  alternates: {
+    canonical: "https://www.thetnyantoe.site/work",
+  },
+};
 export default function Tangenc() {
   const techs = [
     { Icon: ReactjsIcon, name: "React.js" },
@@ -29,7 +36,7 @@ export default function Tangenc() {
         <div className="w-full p-0  md:p-[90px] bg-black border border-zinc-900 rounded-[5px] mt-[40px]">
           <Image
             priority
-            src={photo}
+            src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773724/3_yp1stt.png"
             width={360}
             height={390}
             quality={100}

@@ -1,5 +1,8 @@
 import { MetadataRoute } from "next";
 
+const baseUrl =
+  process.env.NEXT_PUBLIC_BASE_URL || "https://www.thetnyantoe.site";
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
@@ -7,6 +10,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://thetnyantoe.vercel.app/sitemap.xml",
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }

@@ -1,21 +1,18 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import me1 from "@/public/images/thetnyan.png";
-import me2 from "@/public/images/thetnyan2.png";
-import me4 from "@/public/images/thetnyan4.png";
-import tcgcard from "@/public/images/joji.png";
-import bb from "@/public/images//movies/bb.png";
-import bugonia from "@/public/images//movies/bugonia.png";
-import hi from "@/public/images//movies/hi.png";
-import nk from "@/public/images//movies/nk.png";
-import wow from "@/public/images//movies/wow.png";
+
 import Marquee from "react-fast-marquee";
 import Contactform from "../../shared/contactform";
 import Link from "next/link";
 
 export default function Aboutme() {
-  const images = [me1, me2, me4];
+  const images = [
+    "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773730/thetnyan_sucsoj.png",
+    "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773728/thetnyan2_sovsgb.png",
+    "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773710/thetnyan4_pxnicq.png",
+  ];
+
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -52,7 +49,6 @@ export default function Aboutme() {
             <div className="relative w-full h-[335px] lg:h-[435px] border border-zinc-200 rounded-[35px] overflow-hidden bg-gray-800">
               {images.map((img, i) => (
                 <Image
-                  placeholder="blur"
                   key={i}
                   src={img}
                   alt="Author"
@@ -113,35 +109,35 @@ export default function Aboutme() {
                 <div className="rounded-[35px] overflow-hidden border border-zinc-200 h-[213px] sm:h-[265px] mb-3 sm:mb-0">
                   <Marquee>
                     <Image
-                      src={bb}
+                      src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773729/bb_acnix4.png"
                       width={130}
                       height={100}
                       alt="Picture of the author"
                       className="h-full w-auto  border-[0.05px] border-zinc-600"
                     />
                     <Image
-                      src={bugonia}
+                      src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773725/bugonia_agojc5.png"
                       width={130}
                       height={100}
                       alt="Picture of the author"
                       className="h-full w-auto  border-[0.05px] border-zinc-600"
                     />
                     <Image
-                      src={hi}
+                      src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773730/hi_mqncsn.png"
                       width={130}
                       height={100}
                       alt="Picture of the author"
                       className="h-full w-auto  border-[0.05px] border-zinc-600"
                     />
                     <Image
-                      src={nk}
+                      src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773725/nk_zlbjgd.png"
                       width={130}
                       height={100}
                       alt="Picture of the author"
                       className="h-full w-auto  border-[0.05px] border-zinc-600"
                     />
                     <Image
-                      src={wow}
+                      src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773727/wow_znggky.png"
                       width={130}
                       height={100}
                       alt="Picture of the author"
@@ -154,7 +150,7 @@ export default function Aboutme() {
               <div className="flex-6">
                 <div className="relative w-full h-[285px] sm:h-[335px]">
                   <Image
-                    src={tcgcard}
+                    src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773712/joji_tx3sge.png"
                     alt="Picture of the author"
                     fill
                     className="object-cover rounded-[35px]"

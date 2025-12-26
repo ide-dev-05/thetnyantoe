@@ -2,11 +2,9 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import banner from "./_images/workbanner.png";
 import Wave from "./_images/wave";
-import angel1 from "./_images/angel1.png";
+
 import Github from "./_components/github";
-import { RandomizedTextEffect } from "../components/shared/text-randomized";
 import Link from "next/link";
 
 export default function Work() {
@@ -37,48 +35,54 @@ export default function Work() {
   const projects = [
     {
       id: 1,
-      bg: "/images/1.png",
-      detail: "/images/1.1.jpeg",
+      bg: "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773729/1_hxx1sj.png",
+      detail:
+        "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773723/1.1_xqqw3d.jpg",
       title: "Securum",
       desc: "Cybersecurity <br /> AI chatbot",
       link: "/work/securum-project",
     },
     {
       id: 2,
-      bg: "/images/2.png",
-      detail: "/images/2.1.png",
+      bg: "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773723/2_vu5xwr.png",
+      detail:
+        "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773731/2.1_d6smob.png",
       title: "letuscook",
       desc: "C2C food <br /> ordering platform",
       link: "/work/letuscook-project",
     },
     {
       id: 3,
-      bg: "/images/3.png",
-      detail: "/images/3.1.png",
+      bg: "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773724/3_yp1stt.png",
+      detail:
+        "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773708/3.1_ubalp9.png",
       title: "Tangenc",
       desc: "Landing site",
       link: "/work/tangenc-project",
     },
     {
       id: 4,
-      bg: "/images/4.png",
-      detail: "/images/4.1.png",
+      bg: "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773731/4_cv9pns.png",
+      detail:
+        "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773734/4.1_amyjbd.png",
       title: "NextMovie",
       desc: "Movie browsing site",
       link: "/work/nextmovie-project",
     },
     {
       id: 5,
-      bg: "/images/5.png",
-      detail: "/images/5.1.png",
+      bg: "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773709/5_rgup9f.png",
+      detail:
+        "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773708/5.1_hss59e.png",
       title: "allyours",
       desc: "fundraising platform",
       link: "/work/allyours-project",
     },
     {
       id: 6,
-      bg: "/images/6.png",
-      detail: "/images/6.1.png",
+      bg: "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773720/6_blbzkl.png",
+      detail:
+        "https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773721/6.1_erfzuj.png",
       title: "Pokèdex",
       desc: "A Pokèdex",
       link: "/work/pokedex-project",
@@ -93,7 +97,7 @@ export default function Work() {
      before:bg-[url('https://www.ui-layouts.com/noise.gif')]"
       >
         <Image
-          src={banner}
+          src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766776721/workbanner_xve0bx.png"
           alt="Work Banner"
           fill
           priority
@@ -132,9 +136,11 @@ export default function Work() {
       <section className="relative h-auto bg-[#0a0a0a] text-black overflow-visible flex flex-col items-center justify-center bg-[#ddddd1] dark:bg-[#000b0a]">
         <div className="absolute top-[-10px] lg:top-[-20px] right-0 w-[350px] -translate-y-full overflow-x-hidden">
           <Image
-            src={angel1}
+            src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766776719/angel1_mabrzi.png"
             alt="Work Banner"
             priority
+            width={100}
+            height={100}
             className="w-full h-auto"
             style={{
               transform: `scale(${scale}) rotate(${rotate}deg)`,

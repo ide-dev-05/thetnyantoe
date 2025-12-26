@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import photo from "@/public/images/1.png";
+
 import NextjsIcon from "@/public/icons/techs/nextjs";
 import TypescriptIcon from "@/public/icons/techs/typescript";
 import TailwindIcon from "@/public/icons/techs/tailwind";
@@ -33,7 +33,7 @@ export default function Securum() {
         <div className="w-full p-0  md:p-[90px] bg-black border border-zinc-900 rounded-[5px] mt-[40px]">
           <Image
             priority
-            src={photo}
+            src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773729/1_hxx1sj.png"
             width={360}
             height={390}
             quality={100}

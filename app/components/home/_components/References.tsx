@@ -1,9 +1,6 @@
 "use client";
 import Image from "next/image";
-import React from "react";
-import koHH from "@/public/images/references/koHH.jpeg";
-import koTT from "@/public/images/references/koTT.jpeg";
-import koTun from "@/public/images/references/koTun.jpeg";
+
 export default function References(): React.ReactElement {
   return (
     <main className="bg-white pt-[130px]">
@@ -43,7 +40,7 @@ export default function References(): React.ReactElement {
                     </div>
 
                     <Image
-                      src={koTun}
+                      src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773719/koTun_fgrsih.jpg"
                       width={100}
                       height={100}
                       alt="Author"
@@ -84,7 +81,7 @@ export default function References(): React.ReactElement {
                     </div>
 
                     <Image
-                      src={koTT}
+                      src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773712/koTT_ck89mn.jpg"
                       width={100}
                       height={100}
                       alt="Author"
@@ -124,7 +121,7 @@ export default function References(): React.ReactElement {
                     </div>
 
                     <Image
-                      src={koHH}
+                      src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773712/koTT_ck89mn.jpg"
                       width={100}
                       height={100}
                       alt="Author"
