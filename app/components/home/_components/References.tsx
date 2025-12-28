@@ -123,7 +123,7 @@ export default function References(): React.ReactElement {
                     </div>
 
                     <Image
-                      src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773712/koTT_ck89mn.jpg"
+                      src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773721/koHH_rrg868.jpg"
                       loading="lazy"
                       width={100}
                       height={100}
