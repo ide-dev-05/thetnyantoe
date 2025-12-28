@@ -22,7 +22,7 @@ export default function Hero() {
       <div>
         <a href="#more">
           <Image
-            priority
+            loading="lazy"
             src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/wonderofu_chidqm.png"
             width={300}
             height={300}
@@ -33,7 +33,7 @@ export default function Hero() {
         </a>
         <a href="#showcase">
           <Image
-            priority
+            loading="lazy"
             src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/macbook_evk8ed.png"
             width={210}
             height={210}
@@ -44,7 +44,7 @@ export default function Hero() {
         </a>
         <a href="#tech">
           <Image
-            priority
+            loading="lazy"
             src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/pokeball_mav54h.png"
             width={250}
             height={250}
@@ -56,7 +56,7 @@ export default function Hero() {
 
         <a href="#journey">
           <Image
-            priority
+            loading="lazy"
             src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/arrow_yqhalu.png"
             width={70}
             height={70}

@@ -2,9 +2,10 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #ffffff;
+  --background: #ddddd1;
   --foreground: #171717;
 }
+
 html {
   scroll-behavior: smooth;
   margin: 0;
@@ -17,11 +18,9 @@ html {
   --color-foreground: var(--foreground);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #000b0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #000b0a;
+  --foreground: #ededed;
 }
 
 body {

@@ -49,6 +49,7 @@ export default function Aboutme() {
             <div className="relative w-full h-[335px] lg:h-[435px] border border-zinc-200 rounded-[35px] overflow-hidden bg-gray-800">
               {images.map((img, i) => (
                 <Image
+                  loading="lazy"
                   key={i}
                   src={img}
                   alt="Author"
@@ -109,6 +110,7 @@ export default function Aboutme() {
                 <div className="rounded-[35px] overflow-hidden border border-zinc-200 h-[213px] sm:h-[265px] mb-3 sm:mb-0">
                   <Marquee>
                     <Image
+                      loading="lazy"
                       src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773729/bb_acnix4.png"
                       width={130}
                       height={100}
@@ -116,6 +118,7 @@ export default function Aboutme() {
                       className="h-full w-auto  border-[0.05px] border-zinc-600"
                     />
                     <Image
+                      loading="lazy"
                       src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773725/bugonia_agojc5.png"
                       width={130}
                       height={100}
@@ -123,6 +126,7 @@ export default function Aboutme() {
                       className="h-full w-auto  border-[0.05px] border-zinc-600"
                     />
                     <Image
+                      loading="lazy"
                       src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773730/hi_mqncsn.png"
                       width={130}
                       height={100}
@@ -137,6 +141,7 @@ export default function Aboutme() {
                       className="h-full w-auto  border-[0.05px] border-zinc-600"
                     />
                     <Image
+                      loading="lazy"
                       src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773727/wow_znggky.png"
                       width={130}
                       height={100}
@@ -150,6 +155,7 @@ export default function Aboutme() {
               <div className="flex-6">
                 <div className="relative w-full h-[285px] sm:h-[335px]">
                   <Image
+                    loading="lazy"
                     src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773712/joji_tx3sge.png"
                     alt="Picture of the author"
                     fill

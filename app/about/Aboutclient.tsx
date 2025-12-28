@@ -88,7 +88,6 @@ export default function AboutClient() {
           <Image
             src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766777350/angel1_ix7tit.png"
             alt="Work Banner"
-            priority
             width={100}
             height={100}
             className="w-full h-auto scale-x-[-1]"
@@ -129,6 +128,7 @@ export default function AboutClient() {
               into something meaningful.
             </p>
             <Image
+              loading="lazy"
               src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766777349/sunflower_aa7e7y.png"
               width={100}
               height={100}
@@ -149,6 +149,7 @@ export default function AboutClient() {
             <div className="flex flex-col text-black">
               <div className="flex justify-end">
                 <Image
+                  loading="lazy"
                   width={100}
                   height={100}
                   src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766777352/angel2_v0touv.png"
@@ -170,6 +171,7 @@ export default function AboutClient() {
           </div>
 
           <Image
+            loading="lazy"
             src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766777351/ladder_zdmo3i.png"
             width={100}
             height={100}
@@ -195,6 +197,7 @@ export default function AboutClient() {
               </div>
               <div className="">
                 <Image
+                  loading="lazy"
                   src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766777343/yo_gp4wnj.jpg"
                   width={100}
                   height={100}
@@ -211,6 +214,7 @@ export default function AboutClient() {
             <div className="flex flex-col text-black items-end">
               <div className="flex w-full justify-start">
                 <Image
+                  loading="lazy"
                   src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766777350/phone_zbdxck.webp"
                   width={100}
                   height={100}

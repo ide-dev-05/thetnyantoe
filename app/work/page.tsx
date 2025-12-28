@@ -138,7 +138,6 @@ export default function Work() {
           <Image
             src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766776719/angel1_mabrzi.png"
             alt="Work Banner"
-            priority
             width={100}
             height={100}
             className="w-full h-auto"
