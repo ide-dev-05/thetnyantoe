@@ -1,4 +1,4 @@
-"use client"; // <<< THIS IS CRUCIAL
+"use client";
 
 import PillNav from "@/components/PillNav";
 
