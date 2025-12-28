@@ -43,6 +43,7 @@ export default function TechnologiesSection() {
         <div className="flex items-center" data-aos="fade-right">
           <Image
             src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/pokeball_mav54h.png"
+            loading="lazy"
             width={100}
             height={100}
             alt="Picture of the author"

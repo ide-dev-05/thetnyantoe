@@ -2,7 +2,7 @@
 
 import PillNav from "@/components/PillNav";
 
-export default function Nav() {
+export default function AnimatedPillNav() {
   return (
     <div className="w-full bg-red-200 flex justify-center items-center sticky top-[5px] mt-[5px] z-[10]">
       <PillNav
@@ -14,6 +14,11 @@ export default function Nav() {
         ]}
         activeHref="/"
         className="custom-nav"
+        ease="power2.easeOut"
+        baseColor="#000000"
+        pillColor="#ffffff"
+        hoveredPillTextColor="#ffffff"
+        pillTextColor="#000000"
       />
     </div>
   );

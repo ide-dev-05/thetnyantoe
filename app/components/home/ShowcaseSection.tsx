@@ -12,6 +12,7 @@ export default function ShowcaseSection() {
         <div className="flex items-center">
           <Image
             src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/macbook_evk8ed.png"
+            loading="lazy"
             width={70}
             height={70}
             alt="Picture of the author"

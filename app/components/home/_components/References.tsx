@@ -41,6 +41,7 @@ export default function References(): React.ReactElement {
 
                     <Image
                       src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773719/koTun_fgrsih.jpg"
+                      loading="lazy"
                       width={100}
                       height={100}
                       alt="Author"
@@ -82,6 +83,7 @@ export default function References(): React.ReactElement {
 
                     <Image
                       src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773712/koTT_ck89mn.jpg"
+                      loading="lazy"
                       width={100}
                       height={100}
                       alt="Author"
@@ -122,6 +124,7 @@ export default function References(): React.ReactElement {
 
                     <Image
                       src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766773712/koTT_ck89mn.jpg"
+                      loading="lazy"
                       width={100}
                       height={100}
                       alt="Author"

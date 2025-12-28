@@ -82,6 +82,7 @@ export default function ExperiencesSection() {
       <div className="flex items-center" data-aos="fade-right">
         <Image
           src="https://res.cloudinary.com/dtwvkmuje/image/upload/v1766774901/arrow_yqhalu.png"
+          loading="lazy"
           width={50}
           height={40}
           alt="Pokeball"
